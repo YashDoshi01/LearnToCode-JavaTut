@@ -1,11 +1,12 @@
 import kivy
 from kivy.app import App
 from kivy.uix.label import Label
+from live.uix.button import Button
 
 
 class LearnJava(App):
     def build(self):
-        return Label(text='Hello Word!')
+        return Button(text='Hello Word!')
 
 
 
