@@ -1,7 +1,7 @@
 import kivy
 from kivy.app import App
 from kivy.uix.label import Label
-from live.uix.button import Button
+from kivy.uix.button import Button
 
 
 class LearnJava(App):
@@ -12,5 +12,5 @@ class LearnJava(App):
 
 if __name__=='__main__':
     LearnJava().run()
-    
+
 
